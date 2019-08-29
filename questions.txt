@@ -1,78 +1,106 @@
 Open main1.py. Before running it, what do you expect this program to do? 
+A: It will say hello and ask for input, specifically my favorite color.
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+A: The terminal popped up and I typed in Yellow and then the location of the file popped up. 
 
 What do you think the program did with what you typed?
+A: I don't think the program did anything with what I typed, it just ended when it got an input.
 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
+A: It will say hello and ask for input, this one prints the input from the user.
 
 What do you think the color = input() will do? 
+A: It will store the input from the user.
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
+A: Yes, the program printed the input from the user.
 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
+A: This program has a conditional statement in it.
 
 What is happening on lines 11–14? 
+A: If the user inputs Red, then the program will tell them they answered correctly and incorrectly otherwise.
 
 Why are lines 12 and 14 indented? 
+A: Because they are in the conditional statements and that syntax allows people to see what parts of code are int he statement easier.
 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
+A: If you don't capitalize Red then it will return, "Sorry, try again." 
 
 What does this tell you about "color"?
+A: Color is case sensative.
 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
+A: It is differnt because it has a conditonal statement.
 
-What problem is this trying to solve? 
+What problem is this trying to solve?
+A: It is trying to solve the case sensative problem in main3.py.
 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+A: The program will return, "Sorry, try again."
 
 
 
 Open main5.py. What do you expect line 11 to do? 
+A: Check to see if the input is the word red after forcing all of its characters to lowercase.
 
 What problem is it trying to solve? 
+A: It is trying to solve the case sensative problem in main3.py and main4.py.
 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+A: The program will return, "Sorry, try again."
 
 
 
 Open main6.py. How is line 11 different than main5.py? 
+A: main5.py has the .strip() function.
 
 What would you guess .strip() is doing? 
+A: Remove the empty/space characters in the input.
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+A: Adding a period after red will cause the program to return, "Sorry, try again."
 
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+A: It adds a partial success response.
 
 What is the purpose of line 11? 
+A: To force the input into lowercase and remove the empty/space characters in the input.
 
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
+A: It allows to program to keep running even after a wrong input and will end the program when the correct input is entered.
 
 Why are lines 12–19 indented? 
+A: They tell the user whether they are close, wrong, or correct.
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+A: Then Color would be the last input, but when the program ends Color will become '' again.
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+A: It makes the program go into an infinite loop.
 
 
 Open main9.py. What is happening on line 12? 
+A: A conditional statement that won't end until color = red.
 
 What is the purpose of “count”? 
+A: To list the amount of times the user tried to guess the answer.
 
 What is happening on line 22? 
+A: It is printing the amount of tries.
 
 Run the program.
 
@@ -82,3 +110,4 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+A: Yes.
