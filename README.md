@@ -3,7 +3,7 @@
 |                   README                            |
  -----------------------------------------------------
 What is the purpose of this program?
--It is an introductory to Python
+-It is an introduction to Python
 -What you are supposed to do is look at main1.py through main10.py and answer the questions in questions.txt
 
 What was done:
