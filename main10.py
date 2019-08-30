@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import sys, utils, random           # import the modules we will need
+import sys, utils, random           # import the modules we will need 
 
 utils.check_version((3,7))          # make sure we are running at least Python 3.7
 utils.clear()                       # clear the screen

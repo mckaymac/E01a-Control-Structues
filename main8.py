@@ -7,7 +7,7 @@ utils.clear()                       # clear the screen
 
 
 print('Greetings!')
-color = '' 
+color = ''  
 color = input("What is my favorite color? ")
 while (color != 'red'):
     #color = input("What is my favorite color? ")

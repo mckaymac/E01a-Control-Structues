@@ -92,7 +92,7 @@ A: Then Color would be the last input, but when the program ends Color will beco
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 A: It makes the program go into an infinite loop.
 
-
+ 
 Open main9.py. What is happening on line 12? 
 A: A conditional statement that won't end until color = red.
 
